@@ -1,0 +1,1197 @@
+.chromoe-nergetic-complex{
+    margin-top: 29px;
+    padding-bottom: 79px;
+}
+.chromoe-nergetic-flex{
+    display: flex;
+}
+.chromoe-nergetic-com{
+    max-width: 430px;
+    width: 100%;
+}
+.physical-item-photo{
+    width: 100%;
+    border: 1px solid #F0F0F1;
+    position: relative;
+}
+.physical-item-sl-fon .aps-skid{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    left: auto;
+}
+.physical-item-small-img{
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F0F0F1;
+}
+.physical-item-small-img img {
+    width: 100%;
+}
+.physical-item-small-img:hover{
+    border: 1px solid #D6607E;
+}
+.physical-item-small-slider .slick-current {
+    border: 1px solid #D6607E;
+}
+.physical-item-sl-fon{
+    padding: 41px 62px;
+}
+.physical-item-sl-fon a{
+    display: flex;
+    justify-content: center;
+}
+.physical-item-small-slider {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 58px;
+}
+.physical-item-small-slider .slick-next {
+    right: 23px;
+    bottom: -14px!important;
+    transform: rotate(-135deg);
+    top: auto!important;
+}
+.physical-item-small-slider .slick-prev, .physical-item-small-slider .slick-next {
+    width: 10px;
+    height: 10px;
+    border-top: 1.5px solid #1C1C1C;
+    border-left: 1.5px solid #1C1C1C;
+    z-index: 99;
+}
+.physical-item-small-slider .slick-prev {
+    left: 34px;
+    transform: rotate(45deg);
+    top: -10px!important;
+    opacity: 0;
+}
+
+.often-buy-together{
+    background: #F5F5F5;
+    margin-top: 20px;
+    padding: 15px 15px 25px;
+    position: relative;
+    counter-reset: my-sec-counter;
+}
+.often-buy-together:before{
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background: #D6607E;
+    width: 5px;
+    height: 20px;
+}
+.often-buy-together-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.often-buy-together-item strong{
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+    color: #222222;
+}
+.often-buy-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D6607E;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #222222;
+    width: 131px;
+    height: 37px;
+    transition: 0.3s;
+}
+.often-buy-all:hover{
+    background: #D6607E;
+    color: #FFFFFF;
+}
+.often-buy-all:hover svg path{
+    fill: #FFFFFF;
+}
+.often-buy-all svg{
+    margin-right: 7px;
+}
+.often-buy-all svg path{
+    transition: 0.3s;
+
+}
+.often-buy-together-flex{
+    margin-top: 23px;
+    display: flex;
+    align-items: flex-start;
+}
+.often-buy-together-info{
+    width: 84px;
+    position: relative;
+}
+.often-buy-together-info:after {
+    right: -5px;
+    top: -6px;
+    position: absolute;
+    counter-increment: my-sec-counter;
+    content: counter(my-sec-counter);
+    z-index: 99;
+    width: 21px;
+    height: 21px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #979797;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.often-buy-together-img{
+    height: 84px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F1;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+.often-buy-together-info strong{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    display: block;
+    text-align: center;
+    margin-top: 9px;
+}
+.often-buy-together-info del{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #979797;
+    display: block;
+    text-align: center;
+}
+.often-buy-together-info .pages-ordering-checkcon{
+    margin-top: 20px;
+    align-items: unset;
+}
+.often-buy-together-info .pages-ordering-checkcon .checkmark {
+    top: 0;
+    left: 28px;
+}
+.often-buy-together-info .pages-ordering-checkcon .checkcontainer{
+    width: auto;
+    max-width: initial;
+}
+.often-buy-together-flex>span{
+    color: #222222;
+    display: flex;
+    margin: 40px 7px 0;
+    line-height: 10px;
+}
+.often-buy-together-last-price{
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+}
+.often-buy-together-last-price strong{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #222222;
+}
+.often-buy-together-last-price del{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #979797;
+}
+.chromoe-nergetic-cnt{
+    max-width: 718px;
+    width: 100%;
+    margin-left: 54px;
+    margin-top: 37px;
+}
+.chromoe-nergetic-stock{
+    background: rgba(64, 148, 131, 0.1);
+    padding: 5px 11px;
+    width: max-content;
+    cursor: pointer;
+}
+.chromoe-nergetic-stock span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #409483;
+}
+.chromoe-nergetic-stock:hover{
+    background: rgba(227, 27, 37, 0.1);
+}
+.chromoe-nergetic-stock:hover span{
+    color: #E31B25;
+}
+.chromoe-nergetic-cnt h3{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #222222;
+    margin-top: 10px;
+}
+.chromoe-nergetic-in{
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chromoe-nergetic-in>a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+    display: flex;
+    align-items: center;
+}
+.chromoe-nergetic-in>a img{
+    margin-right: 9px;
+}
+.chromoe-nergetic-in-ord{
+    display: flex;
+    align-items: center;
+}
+.leave-spray-cream-hair{
+    width: 203px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: -200px;
+    padding: 10px 2px 13px 16px;
+    top: 29px;
+    z-index: 99;
+}
+.leave-spray-cream-hair span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+}
+.leave-spray-cream-hair p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 6px;
+}
+.often-buy-together-info-act .leave-spray-cream-hair{
+    display: block;
+}
+
+.chromoe-vendor-code{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #DEDEDE;
+    margin-left: 24px;
+}
+.chromoe-vendor-code p {
+    margin-left: 24px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+}
+.chromoe-vendor-code p b{
+    color: #222222;
+}
+.chromoe-nergetic-reviews{
+    display: flex;
+    align-items: center;
+}
+.chromoe-nergetic-reviews ul{
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+.chromoe-nergetic-reviews ul li {
+    margin-right: 8px;
+}
+.chromoe-nergetic-reviews a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D6607E;
+    border-bottom: 1px solid rgba(214,96,136,0.2);
+
+}
+.available-volumes-flex{
+    display: flex;
+    margin-top: 28px;
+}
+.available-volumes-info{
+    border-top: 1px solid #F5F5F5;
+    padding-top: 33px;
+    max-width: 533px;
+    width: 100%;
+}
+.available-volumes-name p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.available-volumes-name ul{
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+.available-volumes-name ul li{
+    margin-right: 10px;
+    width: 88px;
+    height: 32px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.available-volumes-name ul li:hover{
+    color: #FFFFFF;
+    background: #222222;
+}
+.available-volumes-name ul li:before{
+    content: url("../img/Rectangl729.png");
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+.available-volumes-name ul li:hover:before{
+    opacity: 1;
+}
+.available-volumes-rate {
+    margin-top: 30px;
+}
+.available-volumes-rate del{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #979797;
+}
+.available-volumes-rate-ml{
+    display: flex;
+    align-items: center;
+}
+.available-volumes-rate-ml strong{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #D6607E;
+}
+.available-volumes-rate-ml p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-left: 14px;
+}
+.add-shopping-cart{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+}
+.add-shopping-cart-href{
+    background: #D6607E;
+    max-width: 251px;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.add-shopping-cart-href svg{
+    margin-right: 12px;
+}
+.add-shopping-to-favorites{
+    margin-left: 34px;
+    display: flex;
+    align-items: center;
+}
+.add-shopping-to-favorites img{
+    margin-right: 11px;
+}
+.add-shopping-to-favorites a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #222222;
+    border-bottom: 1px solid #222222;
+    white-space: nowrap;
+}
+.ingredients-content-marg{
+    margin-top: 35px;
+}
+.ingredients-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.ingredients-content-text{
+    display: flex;
+    align-items: center;
+    max-width: 222px;
+    width: 100%;
+}
+.ingredients-content-text p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    white-space: nowrap;
+}
+.ingredients-dash{
+    border: 1px dashed #B4B4B4;
+    margin: 6px 6px 0;
+    width: 100%;
+}
+.vitamins-keratin-ingredients{
+    max-width: 285px;
+    width: 100%;
+}
+.vitamins-keratin-ingredients p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #222222;
+}
+.brand-production-italy{
+    max-width: 183px;
+    width: 100%;
+}
+.brand-production-italy-min{
+    padding: 17px 20px 27px;
+    width: 100%;
+    background: #F5F5F5;
+}
+.brand-production-italy-b p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+}
+.brand-production-italy-img{
+    background: #FFFFFF;
+    border: 1px solid #F0F0F1;
+    display: flex;
+    margin-top: 9px;
+}
+.delivery-federation-available{
+    margin-top: 14px;
+}
+.delivery-federation-available span{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #979797;
+}
+.delivery-federation-available span b{
+    color: #222222;
+    display: block;
+}
+.delivery-federation-available img{
+    margin-top: 14px;
+}
+.delivery-federation-available  strong{
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    display: block;
+}
+.delivery-federation-available p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+    margin-top: 7px;
+}
+.free-shipping-orders{
+    margin-top: 14px;
+}
+
+.free-shipping-orders p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+    margin-bottom: 11px;
+}
+.free-shipping-orders p b{
+    display: block;
+    font-weight: 500;
+
+}
+.free-shipping-orders a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D6607E;
+    border-bottom: 1px solid rgba(214,96,136,0.2);
+}
+.brand-production-holo{
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F1;
+    width: 100%;
+    padding: 6px 24px;
+    display: flex;
+    justify-content: center;
+}
+.liked-scrub-fact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.liked-scrub-fact-left{
+    max-width: 508px;
+    width: 100%;
+}
+.liked-scrub-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.liked-scrub-fact-ot{
+    width: 185px;
+}
+.liked-scrub-fact-star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+.liked-scrub-fact-star:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    background: #DEDEDE;
+    opacity: 0.7;
+    width: 66px;
+    height: 1px;
+}
+.liked-scrub-fact-star:first-child:after{
+    background: unset;
+    background-image: url("../img/Vector59.png");
+    height: 17px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.liked-scrub-fact-star:nth-child(5):after{
+    background: unset;
+    background-image: url("../img/Vector110.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 17px;
+    top: -5px;
+}
+.liked-scrub-fact-star ul{
+    display: flex;
+    align-items: center;
+}
+.liked-scrub-fact-star ul li{
+    margin-right: 6px;
+}
+
+.liked-scrub-fact-lin{
+    background: #382F2D;
+    width: 18px;
+    height: 1px;
+    margin: 0 13px;
+}
+.liked-scrub-fact-star span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+}
+.href-send-a{
+    border: 1px solid #D6607E;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #222222;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.href-send-a:hover{
+    background: #D6607E;
+    color: #FFFFFF;
+}
+.liked-scrub-fact-ot .href-send-a{
+    width: 185px;
+    height: 44px;
+    margin-top: 30px;
+}
+.liked-scrub-circle{
+    width: 170px;
+    height: 170px;
+    border: 10px solid #F0F0F1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.liked-scrub-circle img{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+}
+.liked-scrub-circle strong{
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 22px;
+    color: #222222;
+}
+
+.liked-scrub-name-marg{
+    margin-top: 34px;
+
+}
+.liked-scrub-name-anast{
+    padding: 26px 0;
+    border-top: 1px solid #F0F0F1;
+    position: relative;
+}
+.liked-scrub-name-anast:last-child{
+    border-bottom: 1px solid #F0F0F1;
+
+}
+.physical-item-small-box{
+    margin-bottom: 16px;
+}
+.liked-scrub-fact-left .testimonials-info-stranici{
+    justify-content: flex-start;
+    margin-top: 34px;
+}
+.liked-scrub-name-fl{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.liked-scrub-name-fl>img{
+    margin-right: 11px;
+}
+.liked-scrub-name-fl strong{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+.liked-scrub-name-fl span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+    display: block;
+    margin-left: 10px;
+}
+.liked-scrub-name-fl ul{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    padding-left: 17px;
+    border-left: 1px solid #DEDEDE;
+}
+.liked-scrub-name-fl ul li{
+    margin-right: 5px;
+    width: 15px;
+}
+.liked-scrub-name-anast>p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222222;
+
+}
+.read-completely-particles{
+    position: absolute;
+    bottom: 28px;
+    left: 188px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D6607E;
+    padding-right: 13px;
+}
+.read-completely-particles:after{
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    border-top: 1.3px solid #D6607E;
+    border-left: 1.3px solid #D6607E;
+    transform: rotate(-135deg);
+    transition: 0.3s;
+}
+.liked-scrub-name-anast-act .read-completely-as{
+    display: block;
+}
+.liked-scrub-arrow-act .read-completely-particles:after{
+    transform: rotate(45deg);
+    top: 6px;
+}
+
+.liked-scrub-fact-right{
+    max-width: 590px;
+    width: 100%;
+}
+
+.liked-scrub-fact-right .reviews-min-text-hrefs ul{
+    display: flex;
+    align-items: flex-start;
+}
+.liked-scrub-fact-right .reviews-min-text-hrefs ul li{
+    margin-right: 9px;
+    cursor: pointer;
+    padding: 9px 17px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #222222;
+    position: relative;
+    transition: 0.3s;
+}
+.liked-scrub-fact-right .reviews-min-text-hrefs ul li:hover{
+    color: #FFFFFF;
+    background: #222222;
+}
+.liked-scrub-fact-right .reviews-min-text-hrefs ul li:before{
+    content: "";
+    width: 100%;
+    height: 17px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transition: 0.3s;
+    opacity: 0;
+    clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
+    background: #222222;
+
+}
+.liked-scrub-fact-right .reviews-min-text-hrefs ul li:hover:before {
+    opacity: 1;
+}
+.liked-scrub-fact-right .reviews-min-text-hrefs ul .active-href{
+    color: #FFFFFF;
+    background: #222222;
+}
+.liked-scrub-fact-right .reviews-min-text-hrefs ul .active-href:before {
+    opacity: 1;
+}
+
+.about-product-first{
+    margin-top: 25px;
+}
+.about-product-first strong{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+.about-product-first p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+    margin-top: 15px;
+}
+.about-product-first ul li{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+}
+.about-product-first a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D6607E;
+    border-bottom: 1px solid rgba(214,96,136,0.2);
+    margin-top: 15px;
+}
+.which-materials-belong{
+    margin-top: 28px;
+}
+.which-materials-belong strong{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+}
+.which-materials-belong-fl{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.which-materials-belong-img{
+    width: 141px;
+    height: 87px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F1;
+    display: flex;
+}
+.which-materials-belong-fl p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+    margin-left: 26px;
+    max-width: 424px;
+}
+.which-materials-belong>p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+}
+#buy-with-this-product-fon{
+    background: #F5F5F5;
+}
+.buy-with-this-product .recommended-products {
+    padding: 59px 0 75px;
+}
+.liked-scrub-fl-video{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px -10px 0;
+}
+.liked-scrub-box-video{
+    width: 50%;
+    padding: 10px;
+}
+
+.useful-articles-fl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px -10px 0;
+}
+.useful-articles-fl .interesting-articles-cnt-box{
+    width: 50%;
+}
+
+
+@media (max-width: 1299px){
+    .chromoe-nergetic-cnt {
+        margin-left: 20px;
+    }
+    .chromoe-nergetic-com {
+        max-width: 415px;
+    }
+    .add-shopping-to-favorites {
+        margin-left: 20px;
+    }
+    .liked-scrub-fact-left {
+        max-width: 470px;
+    }
+    .liked-scrub-fact-right {
+        max-width: 550px;
+    }
+    .liked-scrub-fact {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1070px){
+    .chromoe-nergetic-flex{
+        flex-direction: column;
+    }
+    .chromoe-nergetic-com {
+        max-width: 450px;
+    }
+    .chromoe-nergetic-cnt {
+        max-width: 740px;
+        margin-left: 0;
+        margin-top: 37px;
+    }
+    .liked-scrub-fact{
+        flex-direction: column-reverse;
+    }
+    .liked-scrub-fact-left {
+        max-width: 620px;
+        margin-top: 35px;
+    }
+    .liked-scrub-block{
+        max-width: 500px;
+        width: 100%;
+    }
+    .liked-scrub-fact-right {
+        max-width: 600px;
+    }
+}
+@media (max-width: 992px){
+    .buy-with-this-product .recommended-products {
+        padding: 40px 0 40px;
+    }
+}
+@media (max-width: 768px){
+    .physical-item-sl-fon {
+        padding: 30px 45px;
+    }
+    .chromoe-nergetic-cnt h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .chromoe-vendor-code {
+        margin-left: 10px;
+    }
+    .chromoe-vendor-code p {
+        margin-left: 10px;
+    }
+    .add-shopping-cart-href {
+        max-width: 210px;
+        height: 54px;
+        font-size: 13px;
+    }
+    .add-shopping-to-favorites {
+        margin-left: 10px;
+    }
+    .add-shopping-to-favorites img {
+        margin-right: 6px;
+    }
+    .vitamins-keratin-ingredients p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .ingredients-content-text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .add-shopping-to-favorites a {
+        font-size: 13px;
+    }
+    .often-buy-together-item strong {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .liked-scrub-fact-right .reviews-min-text-hrefs ul li {
+        padding: 9px 15px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .about-product-first p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .about-product-first strong {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-product-first {
+        margin-top: 15px;
+    }
+    .about-product-first ul li {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .which-materials-belong-fl p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 14px;
+        max-width: 377px;
+    }
+    .which-materials-belong>p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .liked-scrub-circle {
+        width: 140px;
+        height: 140px;
+    }
+    .liked-scrub-circle:before {
+        width: 140px;
+        height: 140px;
+    }
+    .liked-scrub-circle strong {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .liked-scrub-name-anast>p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .read-completely-particles {
+        bottom: 8px;
+        left: 0;
+    }
+    .chromoe-nergetic-complex {
+        padding-bottom: 30px;
+    }
+    .liked-scrub-circle img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 576px){
+    .often-buy-together-item strong {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .often-buy-all {
+        font-size: 12px;
+        line-height: 17px;
+        color: #222222;
+        width: 112px;
+        height: 35px;
+        margin-top: 11px
+    }
+    .often-buy-together-flex {
+        flex-wrap: wrap;
+    }
+    .often-buy-together-info {
+        margin-bottom: 25px;
+    }
+    .often-buy-together-info .pages-ordering-checkcon .checkmark {
+        left: 19px;
+    }
+    .often-buy-together-item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .often-buy-together:before {
+        top: 14px;
+    }
+    .chromoe-nergetic-cnt h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .chromoe-nergetic-in {
+        flex-wrap: wrap;
+    }
+    .chromoe-nergetic-in-ord {
+        flex-wrap: wrap;
+    }
+    .chromoe-vendor-code {
+        margin: 10px 0;
+    }
+    .available-volumes-rate-ml strong {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .add-shopping-cart {
+        margin-top: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .add-shopping-to-favorites {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .ingredients-content {
+        margin-bottom: 10px;
+        width: 400px;
+    }
+    .ingredients-content-marg {
+        margin-top: 30px;
+        overflow-x: auto;
+    }
+    .available-volumes-flex{
+        flex-direction: column;
+    }
+    .liked-scrub-fact-right .reviews-min-text-hrefs{
+        overflow-x: auto;
+    }
+    .liked-scrub-fact-right .reviews-min-text-hrefs ul{
+        width: 400px;
+        padding-bottom: 20px;
+    }
+    .which-materials-belong-fl{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .which-materials-belong-fl p {
+        margin-left: 0;
+    }
+    .liked-scrub-block{
+        flex-direction: column-reverse;
+    }
+    .liked-scrub-fact-ot{
+        margin-top: 20px;
+    }
+    .liked-scrub-fact-star:after{
+        display: none;
+    }
+    .liked-scrub-box-video {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .useful-articles-fl .interesting-articles-cnt-box {
+        width: 100%;
+    }
+    .useful-articles-fl {
+        margin: 30px 0 0;
+    }
+    .liked-scrub-fl-video {
+        margin: 30px 0 0;
+    }
+    .liked-scrub-name-fl {
+        flex-wrap: wrap;
+    }
+    .liked-scrub-name-fl ul {
+        margin-left: 0;
+        padding-left: 14px;
+        margin-top: 8px;
+    }
+    .leave-spray-cream-hair {
+        width: 156px;
+        right: auto;
+        left: 0;
+        padding: 10px 2px 13px 10px;
+        top: 55px;
+    }
+    .leave-spray-cream-hair span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .leave-spray-cream-hair p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+}

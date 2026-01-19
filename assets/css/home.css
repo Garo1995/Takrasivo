@@ -1,0 +1,1555 @@
+.online-cosmetics-fon{
+    background: #F9F1EC;
+}
+.back-call-aps{
+    position: absolute;
+    right: -99px;
+    top: 324px;
+    transform: rotate(-90deg);
+    max-width: 255px;
+    width: 100%;
+    z-index: 996;
+
+}
+.back-call-aps a{
+    width: 100%;
+    height: 57px;
+    border: 1px solid #D6607E;
+    background: unset;
+    color: #D6607E;
+}
+.back-call-aps a span{
+    background: #D6607E;
+}
+.back-call-aps a:hover{
+    background: unset;
+    background: #D6607E;
+    color: #FFFFFF;
+}
+.online-cosmetics-store {
+    padding-top: 54px;
+    position: relative;
+}
+.online-cosmetics-store:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 950px;
+    width: 100%;
+    height: 727px;
+    background: #FFFFFF;
+}
+.online-cosmetics-slid{
+    position: relative;
+    z-index: 9;
+}
+.online-cosmetics-flex{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1230px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+}
+.online-cosmetics-tak{
+    max-width: 419px;
+    width: 100%;
+    margin-top: 81px;
+}
+.online-cosmetics-tak h3{
+    font-family: 'Mr De Haviland';
+    font-weight: normal;
+    font-size: 86px;
+    line-height: 64px;
+    color: #D6607E;
+}
+.online-cosmetics-tak h1{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 68px;
+    color: #222222;
+    margin-top: 13px;
+}
+.free-shipping-order{
+    margin-top: 19px;
+    border: 1px solid #222222;
+    max-width: 390px;
+    width: 100%;
+    padding: 9px 11px 12px 16px;
+    display: flex;
+    align-items: center;
+}
+.free-shipping-order p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #D6607E;
+    margin-right: 4px;
+}
+.free-shipping-order span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #222222;
+}
+.online-cosmetics-tak ul{
+    margin-top: 40px;
+}
+.online-cosmetics-tak ul li{
+    margin-top: 17px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #222222;
+    position: relative;
+    padding-left: 18px;
+}
+.online-cosmetics-tak ul li:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background: #222222;
+}
+.btn-href-cat{
+    background: #D6607E;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    position: relative;
+}
+.btn-href-cat:hover{
+    background: #C04A68;
+}
+
+.btn-href-cat span{
+    display: block;
+    background: #FFFFFF;
+    width: 33px;
+    height: 1px;
+    margin-right: 11px;
+    transition: 0.3s;
+
+}
+
+.btn-href-cat:hover span{
+    margin-right: 0;
+
+    display: none;
+}
+.btn-href-cat img{
+    display: none;
+    margin-left: 11px;
+    width: 40px;
+}
+.btn-href-cat:hover img{
+    display: block;
+
+}
+.online-cosmetics-tak>a{
+    max-width: 224px;
+    width: 100%;
+    height: 56px;
+    margin-top: 43px;
+}
+.online-cosmetics-photo{
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.online-cosmetics-photo:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 67px;
+    height: 100%;
+    background: #1D1D1D;
+}
+.online-cosmetics-slid{
+    max-width: 1328px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.online-cosmetics-slid .slick-next {
+    right: 64px;
+}
+.online-cosmetics-slid .slick-prev {
+    left: auto;
+    right: 114px;
+}
+.online-cosmetics-slid .slick-prev, .online-cosmetics-slid  .slick-next {
+    top: auto;
+    width: 50px;
+    height: 50px;
+    bottom: -26px;
+    background: #FFFFFF;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online-cosmetics-slid .slick-prev:hover, .online-cosmetics-slid  .slick-next:hover{
+    background: #D6607E;
+}
+.online-cosmetics-slid .slick-prev:after, .online-cosmetics-slid  .slick-next:after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-top: 1.5px solid #222222;
+    border-left: 1.5px solid #222222;
+}
+.online-cosmetics-slid .slick-prev:after{
+    transform: rotate(-45deg);
+}
+.online-cosmetics-slid  .slick-next:after{
+    transform: rotate(135deg);
+}
+.online-cosmetics-slid .slick-prev:hover:after, .online-cosmetics-slid  .slick-next:hover:after{
+    border-top: 1.5px solid #FFFFFF;
+    border-left: 1.5px solid #FFFFFF;
+}
+.slick-prev:before, .slick-next:before{
+    display: none;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0!important;
+}
+.online-cosmetics-slid .slick-dots {
+    bottom: -1px;
+    right: 164px;
+    max-width: 128px;
+    background: #FFFFFF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online-cosmetics-slid .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+.online-cosmetics-slid .slick-dots li.slick-active button {
+    width: 13px;
+    height: 13px;
+    background: #D6607E;
+}
+.cosmetics-online-item{
+    margin-top: 27px;
+    padding-bottom: 82px;
+}
+.cosmetics-online-item-href{
+    width: 128px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    transition: 0.3s;
+}
+.cosmetics-online-item-href:hover{
+    border: 1px solid #D6607E;
+}
+.cosmetics-online-item-slid .slick-prev {
+    left: -55px;
+}
+.cosmetics-online-item-slid .slick-next {
+    right: -55px;
+}
+.cosmetics-online-item-slid .slick-prev, .cosmetics-online-item-slid .slick-next {
+    width: 38px;
+    height: 38px;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.cosmetics-online-item-slid .slick-prev:hover, .cosmetics-online-item-slid .slick-next:hover{
+    background: #D6607E;
+}
+.cosmetics-online-item-slid .slick-prev:after, .cosmetics-online-item-slid  .slick-next:after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-top: 1.5px solid #222222;
+    border-left: 1.5px solid #222222;
+    transition: 0.3s;
+
+}
+.cosmetics-online-item-slid .slick-prev:after{
+    transform: rotate(-45deg);
+}
+.cosmetics-online-item-slid  .slick-next:after{
+    transform: rotate(135deg);
+}
+.cosmetics-online-item-slid .slick-prev:hover:after, .cosmetics-online-item-slid  .slick-next:hover:after{
+    border-top: 1.5px solid #FFFFFF;
+    border-left: 1.5px solid #FFFFFF;
+}
+
+.hair-cosmetics-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 82px 0 0;
+}
+
+.hair-cosmetics-info{
+    position: relative;
+    display: flex;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 100%;
+
+}
+.hair-cosmetics-info:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%);
+    transition: 0.3s;
+}
+.hair-cosmetics-info:hover:before{
+    background: linear-gradient(45deg, #D6607E 0%, rgba(34, 34, 34, 0) 100%);
+}
+.hair-cosmetics-info-name{
+    position: absolute;
+    bottom: 15px;
+    left: 21px;
+    z-index: 9;
+}
+.hair-cosmetics-info-name strong{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.hair-cosmetics-info-name a{
+    display: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    width: max-content;
+    margin-top: 11px;
+    transition: 0.3s;
+}
+.hair-cosmetics-info:hover .hair-cosmetics-info-name a{
+    display: block;
+}
+.hair-cosmetics-box{
+    width: 100%;
+}
+.hair-cosmetics-box:nth-child(1){
+    max-width: 387px;
+}
+.hair-cosmetics-box:nth-child(2){
+    max-width: 488px;
+    margin: 0 20px;
+}
+.hair-cosmetics-box:nth-child(3){
+    max-width: 285px;
+}
+.hair-cosmetics-box:nth-child(4){
+    max-width: 386px;
+    margin-top: 20px;
+}
+.hair-cosmetics-box:nth-child(5){
+    max-width: 386px;
+    margin: -77px 20px 0;
+}
+.hair-cosmetics-box:nth-child(6){
+    max-width: 386px;
+    margin-top: -77px;
+}
+.hair-cosmetics-box .btn-href-cat{
+    width: 100%;
+    height: 77px;
+    margin-top: 20px;
+}
+
+.recommended-products{
+    padding: 79px 0 19px;
+}
+.all-tit-pages{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 44px;
+    color: #222222;
+}
+.recommended-products-title p{
+    max-width: 590px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #222222;
+    margin-top: 17px;
+}
+.recommended-products-slider {
+    margin-top: 22px;
+}
+.recommended-products-main {
+    max-width: 224px;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    transition: 0.3s;
+    margin: 30px auto;
+}
+.recommended-products-main:hover{
+    box-shadow: 2px 2px 35px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+
+}
+#discount-products .recommended-products {
+    padding: 79px 0 51px;
+}
+.aps-skid{
+    background: #D6607E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 1px 4px;
+    transition: 0.3s;
+}
+.aps-skid:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -6px;
+    background-image: url("../img/Rectangle7822.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 100%;
+}
+
+.yntrel-srtel{
+    position: absolute;
+    top: 19px;
+    right: 18px;
+    opacity: 0;
+    visibility: hidden;
+}
+.recommended-products-main:hover .yntrel-srtel{
+    opacity: 1;
+    visibility: visible;
+}
+.yntrel-srtel:hover svg path{
+    fill: #D6607E;
+}
+.recommended-products-photo{
+    width: 100%;
+    display: flex;
+}
+.recommended-products-name{
+    margin-top: 12px;
+}
+.recommended-products-name p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+}
+.recommended-products-name>a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 6px;
+    min-height: 54px;
+}
+.recommended-products-main:hover .recommended-products-name>a{
+    color: #D6607E;
+}
+.recommended-products-cnt{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.recommended-products-price del{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #979797;
+}
+.recommended-products-price span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.shop-gni-href{
+    border: 1px solid #D6607E;
+    width: 102px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #222222;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.shop-gni-href svg{
+    margin-right: 7px;
+}
+.shop-gni-href:hover{
+    background: #D6607E;
+    color: #FFFFFF;
+}
+.shop-gni-href:hover svg path{
+    fill: #FFFFFF;
+}
+.recommended-products-main:hover .shop-gni-href{
+    opacity: 1;
+    visibility: visible;
+}
+.col-pic span{
+    color: #D6607E;
+
+}
+
+.recommended-products-slider .slick-next {
+    right: 0;
+}
+.recommended-products-slider .slick-prev {
+    left: auto;
+    right: 46px;
+}
+.recommended-products-slider .slick-prev, .recommended-products-slider  .slick-next {
+    top: -48px;
+    width: 38px;
+    height: 38px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recommended-products-slider .slick-prev:hover, .recommended-products-slider  .slick-next:hover{
+    background: #D6607E;
+}
+.recommended-products-slider .slick-prev:after, .recommended-products-slider  .slick-next:after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-top: 1.5px solid #222222;
+    border-left: 1.5px solid #222222;
+}
+.recommended-products-slider .slick-prev:after{
+    transform: rotate(-45deg);
+}
+.recommended-products-slider  .slick-next:after{
+    transform: rotate(135deg);
+}
+.recommended-products-slider .slick-prev:hover:after, .recommended-products-slider  .slick-next:hover:after{
+    border-top: 1.5px solid #FFFFFF;
+    border-left: 1.5px solid #FFFFFF;
+}
+
+.recommended-products-slider .slick-dots {
+    right: 110px;
+    top: -58px;
+    max-width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: auto;
+}
+.recommended-products-slider .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+.recommended-products-slider .slick-dots li.slick-active button {
+    width: 13px;
+    height: 13px;
+    background: #D6607E;
+}
+.admission-mesel-water-fon{
+    position: relative;
+}
+.admission-mesel-water-fon:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 340px;
+    width: 100%;
+    height: 450px;
+    background: #F5F5F5;
+}
+.admission-mesel-water{
+    margin-top: 34px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    z-index: 8;
+}
+.admission-mesel-water-left, .admission-mesel-water-right{
+    max-width: 590px;
+    width: 100%;
+    position: relative;
+    height: 430px;
+    padding: 42px 40px;
+}
+.admission-mesel-water-left{
+    background: #E0DBE1;
+}
+.admission-mesel-water-right{
+    background: #EFDFE0;
+}
+.admission-mesel-water-title{
+    position: relative;
+    z-index: 9;
+}
+.admission-mesel-water-title h3{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 36px;
+    color: #222222;
+    max-width: 239px;
+}
+.admission-mesel-water-title h3 strong{
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 36px;
+    color: #D6607E;
+}
+.admission-mesel-water-title p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    margin-top: 17px;
+    max-width: 265px;
+}
+.admission-mesel-water-title a{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #222222;
+    border-bottom: 1px solid #222222;
+    margin-top: 27px;
+    display: block;
+    width: max-content;
+    transition: 0.3s;
+    padding: 4px 0;
+}
+.admission-mesel-water-title a:hover{
+    color: #FFFFFF;
+    background: #D6607E;
+    border-bottom: 1px solid transparent;
+
+}
+.admission-mesel-water-img{
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+}
+.admission-mesel-water-right .admission-mesel-water-title a{
+    margin-top: 42px;
+}
+#discount-products{
+    background: #F5F5F5;
+    margin-top: 20px;
+}
+
+
+.buyer-recommendations-min{
+    padding: 79px 0 0;
+}
+.buyer-recommendations-slider {
+    margin-top: -24px;
+}
+.buyer-recommendations-info{
+    max-width: 437px;
+    width: 100%;
+    border: 1px solid #F0F0F1;
+    padding: 28px;
+}
+.anastasia-talks-about{
+    position: relative;
+    padding-left: 25px;
+}
+.anastasia-talks-about:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-image: url("../img/Gro57.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14px;
+    height: 12px;
+
+}
+.anastasia-talks-about strong{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+.anastasia-talks-about span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+.anastasia-talks-about-flex{
+    margin-top: 21px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.anastasia-talks-about-krem{
+    background: #FFFFFF;
+    border: 1px solid #F0F0F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 17px;
+
+}
+.anastasia-talks-about-tit {
+    max-width: 278px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+.anastasia-talks-about-tit span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+}
+.anastasia-talks-about-tit strong {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    display: block;
+    max-width: 240px;
+    position: relative;
+    top: 5px;
+}
+.anastasia-talks-about-tit ul{
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5px;
+}
+.anastasia-talks-about-tit ul li{
+    margin-right: 4px;
+}
+.anastasia-talks-about-tit p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+    margin-top: 14px;
+    position: relative;
+    top: 5px;
+}
+.anastasia-talks-about-tit a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #979797;
+    display: block;
+    margin-top: 13px;
+    position: relative;
+    top: 6px;
+}
+
+.anastasia-talks-about-tit a:hover{
+    font-size: 14px;
+    line-height: 18px;
+    color: #D6607E;
+    font-weight: normal;
+
+}
+.buyer-recommendations-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buyer-recommendations-slider{
+    max-width: 895px;
+    width: 100%;
+}
+.buyer-recommendations-phots{
+    margin-left: 20px;
+    max-width: 285px;
+    width: 100%;
+    display: flex;
+}
+
+.buyer-recommendations-slider .slick-next {
+    right: 0;
+}
+.buyer-recommendations-slider .slick-prev {
+    left: auto;
+    right: 50px;
+}
+.buyer-recommendations-slider .slick-prev, .buyer-recommendations-slider  .slick-next {
+    top: -63px;
+    width: 38px;
+    height: 38px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buyer-recommendations-slider .slick-prev:hover, .buyer-recommendations-slider  .slick-next:hover{
+    background: #D6607E;
+}
+.buyer-recommendations-slider .slick-prev:after, .buyer-recommendations-slider  .slick-next:after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-top: 1.5px solid #222222;
+    border-left: 1.5px solid #222222;
+}
+.buyer-recommendations-slider .slick-prev:after{
+    transform: rotate(-45deg);
+}
+.buyer-recommendations-slider  .slick-next:after{
+    transform: rotate(135deg);
+}
+.buyer-recommendations-slider .slick-prev:hover:after, .buyer-recommendations-slider  .slick-next:hover:after{
+    border-top: 1.5px solid #FFFFFF;
+    border-left: 1.5px solid #FFFFFF;
+}
+
+.buyer-recommendations-slider .slick-dots {
+    right: 102px;
+    top: -80px;
+    max-width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: auto;
+}
+.buyer-recommendations-slider .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+.buyer-recommendations-slider .slick-dots li.slick-active button {
+    width: 13px;
+    height: 13px;
+    background: #D6607E;
+}
+
+#buyer-recommendations .buyer-recommendations-cnt {
+    margin-top: -43px;
+}
+.interesting-articles{
+    padding: 76px 0 73px;
+    position: relative;
+    z-index: 9;
+    border-bottom: 1px solid rgba(34,34,34,0.1);
+}
+.interesting-articles-title{
+    display: flex;
+    align-items: center;
+}
+.interesting-articles-title a{
+    display: block;
+    margin-left: 26px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #222222;
+    border-bottom: 1px solid #222222;
+}
+.interesting-articles-slider{
+    margin-top: 34px;
+}
+.useful-video-reviews .interesting-articles {
+    padding: 94px 0 73px;
+}
+.useful-video-reviews .interesting-articles-slider {
+    margin-top: 36px;
+}
+
+.interesting-articles-slider .slick-next {
+    right: 0;
+}
+.interesting-articles-slider .slick-prev {
+    left: auto;
+    right: 50px;
+}
+.interesting-articles-slider .slick-prev, .interesting-articles-slider  .slick-next {
+    top: -60px;
+    width: 38px;
+    height: 38px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.interesting-articles-slider .slick-prev:hover, .interesting-articles-slider  .slick-next:hover{
+    background: #D6607E;
+}
+.interesting-articles-slider .slick-prev:after, .interesting-articles-slider  .slick-next:after{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-top: 1.5px solid #222222;
+    border-left: 1.5px solid #222222;
+}
+.interesting-articles-slider .slick-prev:after{
+    transform: rotate(-45deg);
+}
+.interesting-articles-slider  .slick-next:after{
+    transform: rotate(135deg);
+}
+.interesting-articles-slider .slick-prev:hover:after, .interesting-articles-slider  .slick-next:hover:after{
+    border-top: 1.5px solid #FFFFFF;
+    border-left: 1.5px solid #FFFFFF;
+}
+
+.interesting-articles-slider .slick-dots {
+    right: 115px;
+    top: -69px;
+    max-width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: auto;
+}
+.interesting-articles-slider .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    background: #DEDEDE;
+    transition: 0.3s;
+}
+.interesting-articles-slider .slick-dots li.slick-active button {
+    width: 13px;
+    height: 13px;
+    background: #D6607E;
+}
+
+.interesting-articles-item{
+    max-width: 285px;
+    width: 100%;
+    margin: 0 auto;
+}
+.interesting-articles-item-photo{
+    width: 100%;
+    display: flex;
+}
+.interesting-articles-item span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.07em;
+    color: #979797;
+    margin-top: 20px;
+    display: block;
+}
+.interesting-articles-item a{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #222222;
+    display: block;
+    margin-top: 9px;
+    transition: 0.3s;
+}
+.interesting-articles-item a:hover{
+    text-decoration: underline;
+    color: #D6607E;
+}
+.useful-video-reviews-photo{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.useful-video-reviews-photo a{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 80px 80px rgba(0, 0, 0, 0.25);
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+.useful-video-reviews-photo a svg path{
+    transition: 0.3s;
+}
+.useful-video-reviews-photo a:hover{
+    background: #D6607E;
+}
+.useful-video-reviews-photo a:hover svg path{
+    fill: #FFFFFF;
+}
+.useful-video-reviews-href{
+    background: #FFFFFF;
+    padding: 12px 11px 15px 19px;
+}
+.useful-video-reviews-href a:hover{
+    text-decoration: unset;
+}
+
+.useful-video-reviews:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 155px;
+    background: #F9F1EC;
+}
+
+
+
+.scrollup {
+
+    position: fixed;
+    right: 60px;
+    bottom: 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 99;
+
+}
+.scrollup-cirk{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: 1px solid #D6607E;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.scrollup  span{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D6607E;
+    display: block;
+    margin-top: 8px;
+}
+
+@media (max-width: 1799px){
+    .online-cosmetics-store:after {
+        max-width: 850px;
+    }
+}
+@media (max-width: 1599px){
+    .online-cosmetics-store:after {
+        max-width: 800px;
+    }
+}
+@media (max-width: 1499px){
+    .online-cosmetics-store:after {
+        max-width: 750px;
+    }
+    .scrollup {
+        right: 30px;
+    }
+    .cosmetics-online-item-slid .slick-prev {
+        left: -40px;
+    }
+    .cosmetics-online-item-slid .slick-next {
+        right: -40px;
+    }
+    .hair-cosmetics-flex {
+        margin: 40px 0 0;
+    }
+    .recommended-products {
+        padding: 60px 0 19px;
+    }
+}
+@media (max-width: 1299px){
+    #buyer-recommendations .buyer-recommendations-cnt {
+        margin-top: 14px;
+    }
+    .online-cosmetics-store:after {
+        max-width: 620px;
+        height: 670px;
+    }
+    .online-cosmetics-photo {
+        max-width: 640px;
+    }
+    .online-cosmetics-tak h3 {
+        font-size: 77px;
+        line-height: 70px;
+    }
+    .online-cosmetics-tak h1 {
+        font-size: 55px;
+        line-height: 62px;
+    }
+    .online-cosmetics-flex {
+        padding: 0 15px 0 20px;
+    }
+    .online-cosmetics-slid .slick-next {
+        right: 15px;
+    }
+    .online-cosmetics-slid .slick-prev {
+        right: 65px;
+    }
+    .online-cosmetics-slid .slick-dots {
+        right: 115px;
+    }
+    .cosmetics-online-item-href {
+        margin: 0 auto;
+    }
+    .cosmetics-online-item-slid .slick-prev {
+        left: -10px;
+    }
+    .cosmetics-online-item-slid .slick-next {
+        right: -10px;
+    }
+    .hair-cosmetics-box:nth-child(1) {
+        max-width: 340px;
+    }
+    .hair-cosmetics-box:nth-child(2) {
+        max-width: 469px;
+    }
+    .hair-cosmetics-box:nth-child(4) {
+        max-width: 340px;
+    }
+    .hair-cosmetics-box:nth-child(5) {
+        max-width: 369px;
+        margin: -40px 20px 0;
+    }
+    .hair-cosmetics-box:nth-child(6) {
+        max-width: 385px;
+        margin-top: -41px;
+    }
+
+    .btn-href-cat>span{
+        display: none;
+    }
+    .btn-href-cat>strong{
+        display: none;
+    }
+    .btn-href-cat>img{
+        display: none;
+    }
+    .btn-href-cat-mob{
+        display: flex;
+    }
+    .btn-href-cat-mob img{
+        display: block!important;
+    }
+    .btn-href-cat img {
+        display: none;
+        margin-left: 0;
+        width: 30px;
+    }
+    .back-call-aps a {
+        height: 41px;
+    }
+    .back-call-aps {
+        position: fixed;
+        right: -6px;
+        top: auto!important;
+        max-width: 53px;
+        bottom: 175px;
+    }
+    .btn-href-cat:hover img{
+        display: none;
+    }
+    .back-call-aps a:hover {
+        background: #FFFFFF;
+    }
+}
+@media (max-width: 1170px){
+    .online-cosmetics-tak h3 {
+        font-size: 67px;
+        line-height: 69px;
+    }
+    .online-cosmetics-tak h1 {
+        font-size: 43px;
+        line-height: 48px;
+    }
+    .free-shipping-order {
+        margin-top: 14px;
+        max-width: 352px;
+    }
+    .free-shipping-order p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .free-shipping-order span {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .online-cosmetics-tak ul {
+        margin-top: 20px;
+    }
+    .online-cosmetics-tak ul li {
+        margin-top: 13px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 15px;
+    }
+    .online-cosmetics-tak>a {
+        margin-top: 30px;
+    }
+    .online-cosmetics-store:after {
+        max-width: 540px;
+        height: 620px;
+    }
+    .online-cosmetics-photo {
+        max-width: 550px;
+    }
+    .hair-cosmetics-box{
+        max-width: 50%!important;
+        margin: 0!important;
+        padding: 5px;
+    }
+    .hair-cosmetics-info{
+        width: 100%;
+    }
+    .hair-cosmetics-info img{
+        width: 100%;
+        object-position: center;
+        height: 300px;
+    }
+    .hair-cosmetics-flex {
+        margin: 40px auto 0;
+        max-width: 840px;
+    }
+    .admission-mesel-water-left, .admission-mesel-water-right {
+        max-width: 460px;
+        height: 420px;
+        padding: 30px 30px;
+    }
+    .admission-mesel-water-title h3 {
+        font-size: 30px;
+        line-height: 35px;
+        max-width: 221px;
+    }
+    .all-tit-pages {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .buyer-recommendations-min {
+        padding: 50px 0 0;
+    }
+    #buyer-recommendations .buyer-recommendations-cnt {
+        margin-top: 70px;
+    }
+    .buyer-recommendations-slider {
+        max-width: 640px;
+    }
+}
+@media (max-width: 992px){
+    .online-cosmetics-store:after{
+        display: none;
+    }
+    .online-cosmetics-photo{
+        display: none;
+    }
+    .online-cosmetics-store {
+        padding-top: 14px;
+    }
+    .online-cosmetics-tak {
+        margin-top: 30px;
+    }
+    .hair-cosmetics-info-name strong {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .cosmetics-online-item {
+        margin-top: 27px;
+        padding-bottom: 40px;
+    }
+    .buyer-recommendations-slider {
+        max-width: 444px;
+    }
+    .interesting-articles-title{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .interesting-articles-title a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .buyer-recommendations-phots{
+        display: none;
+    }
+    .buyer-recommendations-min {
+        padding: 50px 0 ;
+    }
+    .recommended-products-slider .slick-dots {
+        top: -110px;
+    }
+    .recommended-products-slider .slick-prev, .recommended-products-slider .slick-next {
+        top: -100px;
+    }
+    .admission-mesel-water {
+        flex-direction: column;
+        align-items: center;
+    }
+    .admission-mesel-water-left, .admission-mesel-water-right {
+        max-width: 590px;
+        height: 430px;
+        padding: 30px 30px;
+    }
+    .admission-mesel-water-right{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px){
+    .online-cosmetics-tak h3 {
+        font-size: 58px;
+        line-height: 66px;
+    }
+    .online-cosmetics-tak h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .online-cosmetics-tak ul li {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 18px;
+        padding-left: 15px;
+    }
+    .hair-cosmetics-info img {
+        height: auto;
+    }
+    .hair-cosmetics-box .btn-href-cat {
+        height: 60px;
+        margin-top: 10px;
+    }
+    .recommended-products-slider {
+        margin-top: 50px;
+    }
+    .recommended-products-slider .slick-prev, .recommended-products-slider .slick-next {
+        top: -20px;
+    }
+    .recommended-products-slider .slick-dots {
+        top: -30px;
+    }
+    .all-tit-pages {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    #discount-products .recommended-products {
+        padding: 50px 0 51px;
+    }
+    #buyer-recommendations .buyer-recommendations-cnt {
+        margin-top: 80px;
+    }
+    .buyer-recommendations-slider .slick-prev, .buyer-recommendations-slider .slick-next {
+        top: -30px;
+    }
+    .buyer-recommendations-slider .slick-dots {
+        top: -40px;
+    }
+    .interesting-articles {
+        padding: 50px 0 50px;
+    }
+    .interesting-articles-item {
+        max-width: 260px;
+    }
+    .interesting-articles-slider {
+        margin-top: 70px;
+    }
+    .interesting-articles-slider .slick-prev, .interesting-articles-slider .slick-next {
+        top: -38px;
+    }
+    .interesting-articles-slider .slick-dots {
+        top: -46px;
+    }
+    .useful-video-reviews .interesting-articles {
+        padding: 50px 0 50px;
+    }
+    .interesting-articles-item a {
+        font-size: 16px;
+    }
+    .useful-video-reviews-href {
+        padding: 10px 10px 10px 10px;
+    }
+
+}
+@media (max-width: 576px){
+    .online-cosmetics-tak h3 {
+        font-size: 50px;
+        line-height: 57px;
+    }
+    .online-cosmetics-tak h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .online-cosmetics-tak {
+        margin-top: 15px;
+    }
+    .free-shipping-order {
+        margin-top: 14px;
+        max-width: 195px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 9px 10px 10px 10px;
+    }
+    .online-cosmetics-slid {
+        margin-bottom: 0!important;
+        padding-bottom: 75px;
+    }
+    .hair-cosmetics-box {
+        max-width: 100%!important;
+        padding: 5px 0;
+    }
+    .hair-cosmetics-info-name strong {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .hair-cosmetics-info-name {
+        bottom: 10px;
+        left: 15px;
+    }
+    .all-tit-pages {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .recommended-products-title p {
+        line-height: 22px;
+        margin-top: 12px;
+    }
+    .recommended-products-main {
+        margin: 30px auto 0;
+    }
+    .admission-mesel-water-left, .admission-mesel-water-right {
+        max-width: 590px;
+        height: auto;
+        padding: 0;
+    }
+    .admission-mesel-water-title h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .admission-mesel-water-title {
+        position: absolute;
+        z-index: 9;
+        padding: 20px;
+    }
+    .admission-mesel-water-img {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        display: flex;
+    }
+    .admission-mesel-water-img img{
+        width: 100%;
+    }
+    .admission-mesel-water-right .admission-mesel-water-title a {
+        margin-top: 20px;
+    }
+    .admission-mesel-water-title p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 12px;
+    }
+    .admission-mesel-water-title h3 strong {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .admission-mesel-water-title a {
+        margin-top: 16px;
+    }
+    .anastasia-talks-about-flex{
+        flex-direction: column;
+    }
+    .useful-video-reviews .interesting-articles-slider {
+        margin-top: 65px;
+    }
+    .admission-mesel-water-fon:after{
+        display: none;
+    }
+    .recommended-products-slider .slick-dots {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .recommended-products-slider .slick-prev {
+        right: auto;
+    }
+    .buyer-recommendations-slider .slick-prev {
+        right: auto;
+    }
+    .buyer-recommendations-slider .slick-dots {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .interesting-articles-slider .slick-prev {
+        right: auto;
+    }
+    .interesting-articles-slider .slick-dots {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .online-cosmetics-slid .slick-prev {
+        right: auto;
+    }
+    .online-cosmetics-slid .slick-dots {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+}

@@ -1,0 +1,369 @@
+#interesting-articles {
+	padding: 27px 0 85px;
+}
+#interesting-articles .back-call-aps {
+	top: 267px;
+}
+#interesting-articles .seta-pages-ina {
+	padding-top: 60px;
+}
+.interesting-articles-cnt-flex{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 24px -10px 0;
+}
+.interesting-articles-cnt-box{
+	padding: 20px 10px;
+	width: 25%;
+}
+#interesting-articles .pages-our-blog-qsaa {
+	margin-top: 22px;
+}
+#how-quickly-reduce{
+	margin-top: 28px;
+	padding-bottom: 82px;
+}
+.how-quickly-reduce-title span{
+    font-family: 'Bebas Neue';
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.07em;
+	color: #979797;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+
+}
+.how-quickly-reduce-title span img{
+	margin-right: 10px;
+}
+.how-quickly-reduce-info {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 22px;
+}
+.how-quickly-reduce-img {
+	max-width: 550px;
+	width: 100%;
+	display: flex;
+	margin-top: 5px;
+}
+.how-quickly-reduce-text{
+	max-width: 590px;
+	width: 100%;
+}
+.how-quickly-reduce-text p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222222;
+	margin-bottom: 10px;
+}
+.collection-love-at-first {
+	margin-top: 44px;
+}
+.collection-love-at-first p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222222;
+}
+.collection-love-at-first p strong{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222222;
+}
+.marg-asr{
+	margin-top: 8px;
+}
+.collection-love-at-first p span{
+	color: #D6607E;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+}
+.collection-love-at-first h2{
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 34px;
+	color: #222222;
+	margin-top: 55px;
+	margin-bottom: 24px;
+}
+.collection-love-at-first h3{
+	margin-top: 26px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+	color: #222222;
+}
+.marg-ol{
+	margin-top: 12px;
+}
+.collection-love-at-first ul li{
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222222;
+}
+.collection-love-at-first ul li span{
+	font-weight: 600;
+}
+.answer-yourself-question li{
+	margin-top: 10px;
+}
+.photo-caption-slider {
+	margin-top: 49px;
+}
+.photo-caption-item span{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #979797;
+	margin-top: 9px;
+	display: block;
+	padding-left: 21px;
+	position: relative;
+}
+.photo-caption-item span:before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 11px;
+	height: 1px;
+	background: #979797;
+}
+.photo-caption-slider .slick-prev {
+	left: -41px;
+	transform: rotate(-45deg);
+}
+.photo-caption-slider .slick-next {
+	right: -41px;
+	transform: rotate(135deg);
+
+}
+.photo-caption-slider .slick-prev, .photo-caption-slider  .slick-next {
+	font-size: 0;
+	line-height: 0;
+	width: 10px;
+	height: 10px;
+	border-top: 1.5px solid #222222;
+	border-left: 1.5px solid #222222;
+	z-index: 9;
+	top: 44%;
+}
+.substances-formulations-these{
+	margin-top: 65px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 93px;
+}
+.substances-formulations-text{
+	max-width: 590px;
+	width: 100%;
+}
+.substances-formulations-text h2{
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 34px;
+	color: #222222;
+	margin-bottom: 20px;
+}
+.substances-formulations-text p{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222222;
+	margin-top: 10px;
+}
+.quickly-lose-their-fres{
+	margin-top: 48px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.quickly-lose-their-fres .useful-video-reviews-photo{
+	max-width: 354px;
+	width: 100%;
+	margin-right: 25px;
+}
+.quickly-lose-their-fres .useful-video-reviews-photo img{
+	width: 100%;
+}
+.quickly-lose-their-fres-tit{
+	max-width: 800px;
+	width: 100%;
+}
+.quickly-lose-their-fres-tit h3{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 26px;
+	color: #222222;
+}
+.quickly-lose-their-fres-tit p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222222;
+	margin-top: 11px;
+}
+
+
+@media (max-width: 1299px){
+	.how-quickly-reduce-img {
+		max-width: 510px;
+	}
+	.how-quickly-reduce-text {
+		max-width: 550px;
+	}
+	.collection-love-at-first {
+		margin-top: 18px;
+	}
+	.collection-love-at-first h2 {
+		font-size: 32px;
+		line-height: 34px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.photo-caption-item{
+		max-width: 387px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.photo-caption-slider .slick-prev {
+		left: 0;
+	}
+	.photo-caption-slider .slick-next {
+		right: 0;
+	}
+	.quickly-lose-their-fres-tit {
+		max-width: 710px;
+		width: 100%;
+	}
+	.substances-formulations-these {
+		margin-top: 65px;
+		margin-bottom: 60px;
+	}
+}
+@media (max-width: 1170px){
+	.how-quickly-reduce-info{
+		flex-direction: column;
+	}
+	.how-quickly-reduce-text {
+		margin-top: 15px;
+		max-width: 800px;
+	}
+}
+
+@media (max-width: 992px){
+	.interesting-articles-cnt-box{
+		width: 33.333333%;
+	}
+	.photo-caption-item {
+		max-width: 337px;
+	}
+	.substances-formulations-these {
+		margin-top: 50px;
+		margin-bottom: 40px;
+		flex-direction: column;
+
+	}
+	.substances-formulations-text h2 {
+		font-size: 30px;
+		line-height: 34px;
+		margin-bottom: 5px;
+	}
+	.quickly-lose-their-fres {
+		margin-top: 30px;
+		flex-direction: column;
+	}
+	.quickly-lose-their-fres-tit{
+		margin-top: 20px;
+	}
+	.quickly-lose-their-fres .useful-video-reviews-photo {
+		margin-right: 0;
+	}
+	#how-quickly-reduce {
+		margin-top: 29px;
+		padding-bottom: 40px;
+	}
+	.substances-formulations-text{
+		margin-bottom: 25px;
+	}
+}
+@media (max-width: 767.9px){
+	.interesting-articles-cnt-box{
+		width: 50%;
+	}
+	.substances-formulations-these {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	.photo-caption-item {
+		max-width: 387px;
+	}
+
+}
+@media (max-width: 576px){
+	  #interesting-articles {
+        padding: 29px 0 40px;
+    }
+	.interesting-articles-cnt-box .interesting-articles-item {
+	    max-width: 100%;
+	}
+	.interesting-articles-cnt-box {
+	    padding: 10px 0;
+	    width: 100%;
+	}
+	.interesting-articles-cnt-flex {
+	    margin: 20px 0 0;
+	}
+	.how-quickly-reduce-text p {
+		line-height: 22px;
+	}
+	.collection-love-at-first p {
+		line-height: 21px;
+	}
+	.collection-love-at-first h2 {
+		font-size: 26px;
+		line-height: 30px;
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+	.collection-love-at-first ul li {
+		margin-top: 8px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.collection-love-at-first h3 {
+		margin-top: 20px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.substances-formulations-these {
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+	.substances-formulations-text p {
+		line-height: 22px;
+	}
+	.quickly-lose-their-fres-tit p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	#interesting-articles .seta-pages-ina {
+		padding-top: 30px;
+	}
+	#interesting-articles .interesting-articles-item-photo img{
+		width: 100%;
+	}
+}

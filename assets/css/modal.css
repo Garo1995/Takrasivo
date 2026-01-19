@@ -1,0 +1,418 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    overflow: auto;
+    -webkit-transform: scaleY(0.01) scaleX(0);
+    -ms-transform: scaleY(0.01) scaleX(0);
+    transform: scaleY(0.01) scaleX(0);
+    -webkit-animation: unfoldIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+.modal.out {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: unfoldOut 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldOut 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@-webkit-keyframes unfoldIn {
+    0% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@keyframes unfoldIn {
+    0% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@-webkit-keyframes unfoldOut {
+    0% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+@keyframes unfoldOut {
+    0% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+.modal-content {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-animation: zoomIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: zoomIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    z-index: 99;
+}
+.close:before,
+.close:after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.close:before{
+    width: 100%;
+    height: 1px;
+}
+.close:after{
+    width: 1px;
+    height: 100%;
+}
+
+
+.modal-reg .open_modal{
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.modal-registration-a{
+    position: relative;
+    padding: 43px 45px;
+    max-width: 486px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.thank-you-registration h3{
+    font-family: "Bebas Neue";
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 24px;
+}
+.thank-you-registration>p{
+    margin-top: 14px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+.the-letter-did-not{
+    margin-top: 17px;
+    display: flex;
+    align-items: flex-start;
+}
+.the-letter-did-not img{
+    margin-right: 12px;
+    margin-top: 3px;
+}
+.the-letter-did-not p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #979797;
+}
+.thank-you-registration button{
+    margin-top: 32px;
+}
+.btn-in-form{
+    background: #D6607E;
+    color: #FFFFFF;
+    width: 170px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.thank-you-registration>a{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #979797;
+}
+.thank-you-registration a img{
+    margin-right: 17px;
+}
+.unsubscribe-stay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.unsubscribe-stay button{
+    background: #222222;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 188px;
+    height: 56px;
+}
+.unsubscribe-stay a{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D6607E;
+}
+.unsubscribe-stay a img{
+    margin-right: 10px;
+}
+.info-registration-in{
+    background: #FFFFFF;
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+    padding: 51px 45px 0;
+}
+.via-social-networks{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.thank-you-registration .feedback-leave-your-inp {
+    margin-top: 20px;
+}
+.via-social-networks p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    margin-right: 9px;
+}
+.via-social-networks ul {
+    display: flex;
+    align-items: center;
+}
+.via-social-networks ul  li{
+    margin-left: 10px;
+}
+.via-social-networks ul  li a{
+    width: 37px;
+    height: 37px;
+    border: 1px solid #D6607E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.already-have-account{
+    margin: 50px auto 0;
+    max-width: 360px;
+    width: 100%;
+    padding: 18px 17px 18px 27px;
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+}
+.already-have-account p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-right: 10px;
+}
+.already-have-account a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D6607E;
+}
+.col-red-form label input{
+    border-bottom: 1px solid #D6607E!important;
+}
+.col-red-form{
+    position: relative;
+}
+.col-red-form p{
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #E31B25;
+}
+.form-zabil-pass{
+    display: flex;
+    align-items: center;
+}
+.form-zabil-pass a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D6607E;
+    border-bottom: 1px solid rgba(214,96,136,0.2);
+    margin-top: 28px;
+    margin-left: 25px;
+}
+.thank-you-registration>p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1C1C;
+    margin-top: 10px;
+}
+#modal11 .info-registration-in{
+    padding: 51px 45px 47px
+}
+
+.feedback-leave-your-le .feedback-leave-your-le button {
+    margin-top: 41px;
+}
+#modal4 .thank-you-registration button {
+    width: 215px;
+}
+#modal5 .thank-you-registration button {
+    margin-top: 0;
+
+}
+#modal5 .unsubscribe-stay{
+    margin-top: 32px;
+}
+
+@media (max-width: 576px){
+    .modal-registration-a {
+        padding: 20px 15px;
+    }
+    .thank-you-registration h3 {
+        font-size: 25px;
+        line-height: 28px;
+        margin-top: 18px;
+    }
+    .thank-you-registration>p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .thank-you-registration button {
+        margin-top: 18px;
+    }
+    .btn-in-form {
+        height: 50px;
+    }
+    .unsubscribe-stay{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .unsubscribe-stay a{
+        margin-top: 10px;
+    }
+    .info-registration-in {
+        padding: 20px 15px 0;
+    }
+    .already-have-account {
+        margin: 25px auto 0;
+        padding: 15px 11px 15px 16px;
+    }
+    .form-zabil-pass button {
+        max-width: 130px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .form-zabil-pass{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-zabil-pass a {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .already-have-account{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #modal11 .info-registration-in {
+        padding: 25px 15px 25px;
+    }
+}
